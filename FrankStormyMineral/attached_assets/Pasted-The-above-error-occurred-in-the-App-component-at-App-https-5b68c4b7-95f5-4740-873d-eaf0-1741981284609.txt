@@ -1,0 +1,26 @@
+The above error occurred in the <App> component:
+
+    at App (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/src/App.jsx?t=1741981269703:311:27)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+at App (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/src/App.jsx?t=1741981269703:311:27)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+at t.value (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+syncService is not defined
+at https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/src/App.jsx?t=1741981269703:409:27
+at commitHookEffectListMount (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:16904:34)
+at commitPassiveMountOnFiber (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:18152:19)
+at commitPassiveMountEffects_complete (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:18125:17)
+at commitPassiveMountEffects_begin (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:18115:15)
+at commitPassiveMountEffects (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:18105:11)
+at flushPassiveEffectsImpl (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19486:11)
+at flushPassiveEffects (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19443:22)
+at commitRootImpl (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19412:13)
+at commitRoot (https://5b68c4b7-95f5-4740-873d-eaf029fd48f9-00-3h6ds4gjj1ry8.sisko.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19273:13)

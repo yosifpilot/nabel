@@ -1,0 +1,61 @@
+[plugin:vite:react-babel] /home/runner/workspace/src/App.jsx: Unexpected token, expected "jsxTagEnd" (1447:68)
+  1450 |             {timerState.running ? `إنهاء (${timerState.elapsed})` : "بدء التايمر"}
+/home/runner/workspace/src/App.jsx:1447:68
+1445|              placeholder="0"
+1446|            />
+1447|            <span>بعد الخصم: {totalAfterDiscount.toFixed(0)} د.ع</span</div>
+   |                                                                      ^
+1448|          <div className="panel-actions">
+1449|            <button className="timer-btn" onClick={startTableTimer}>
+    at constructor (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:356:19)
+    at JSXParserMixin.raise (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:3223:19)
+    at JSXParserMixin.unexpected (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:3253:16)
+    at JSXParserMixin.expect (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:3585:28)
+    at JSXParserMixin.jsxParseClosingElementAt (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6840:10)
+    at JSXParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6855:37)
+    at JSXParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6858:32)
+    at JSXParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6858:32)
+    at JSXParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6858:32)
+    at JSXParserMixin.jsxParseElement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6915:17)
+    at JSXParserMixin.parseExprAtom (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6927:19)
+    at JSXParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10857:23)
+    at JSXParserMixin.parseUpdate (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10840:21)
+    at JSXParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10816:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10654:61)
+    at JSXParserMixin.parseExprOps (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10659:23)
+    at JSXParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10636:23)
+    at JSXParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10597:21)
+    at /home/runner/workspace/node_modules/@babel/parser/lib/index.js:10567:39
+    at JSXParserMixin.allowInAnd (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12284:12)
+    at JSXParserMixin.parseMaybeAssignAllowIn (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10567:17)
+    at JSXParserMixin.parseParenAndDistinguishExpression (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:11499:28)
+    at JSXParserMixin.parseExprAtom (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:11137:23)
+    at JSXParserMixin.parseExprAtom (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:6932:20)
+    at JSXParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10857:23)
+    at JSXParserMixin.parseUpdate (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10840:21)
+    at JSXParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10816:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10654:61)
+    at JSXParserMixin.parseExprOps (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10659:23)
+    at JSXParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10636:23)
+    at JSXParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10597:21)
+    at JSXParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10551:23)
+    at /home/runner/workspace/node_modules/@babel/parser/lib/index.js:10547:39
+    at JSXParserMixin.allowInAnd (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12279:16)
+    at JSXParserMixin.parseExpression (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:10547:17)
+    at JSXParserMixin.parseReturnStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13003:28)
+    at JSXParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12621:21)
+    at JSXParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12588:17)
+    at JSXParserMixin.parseStatementListItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12568:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13189:61)
+    at JSXParserMixin.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13182:10)
+    at JSXParserMixin.parseBlock (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13170:10)
+    at JSXParserMixin.parseFunctionBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:11935:24)
+    at JSXParserMixin.parseFunctionBodyAndFinish (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:11921:10)
+    at /home/runner/workspace/node_modules/@babel/parser/lib/index.js:13318:12
+    at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12261:14)
+    at JSXParserMixin.parseFunction (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13317:10)
+    at JSXParserMixin.parseFunctionStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12984:17)
+    at JSXParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12614:21)
+    at JSXParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12588:17
+Click outside, press Esc key, or fix the code to dismiss.
+You can also disable this overlay by setting server.hmr.overlay to false in vite.config.js.

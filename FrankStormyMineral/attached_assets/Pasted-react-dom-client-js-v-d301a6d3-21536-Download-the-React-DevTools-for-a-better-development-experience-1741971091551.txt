@@ -1,0 +1,26 @@
+react-dom_client.js?v=d301a6d3:21536 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+d1b8ad98-5ba9-42ea-8….pike.replit.dev/:1 Denying load of chrome-extension://djbbokpfbbipcdnodgadkidppckgajgp/fonts/open_sans/open-sans-v18-latin-regular.woff. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.
+d1b8ad98-5ba9-42ea-8….pike.replit.dev/:1 Denying load of chrome-extension://djbbokpfbbipcdnodgadkidppckgajgp/fonts/open_sans/OpenSans-Bold.woff. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.
+d1b8ad98-5ba9-42ea-8….pike.replit.dev/:1 Denying load of chrome-extension://djbbokpfbbipcdnodgadkidppckgajgp/fonts/open_sans/open-sans-v18-latin-800.woff. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.
+App.jsx:751 خطأ في حفظ تعديلات الطاولات: ReferenceError: loadData is not defined
+    at saveTableChanges (App.jsx:749:7)
+saveTableChanges	@	App.jsx:751
+App.jsx:751 خطأ في حفظ تعديلات الطاولات: ReferenceError: loadData is not defined
+    at saveTableChanges (App.jsx:749:7)
+saveTableChanges	@	App.jsx:751
+await in saveTableChanges		
+callCallback2	@	react-dom_client.js?v=d301a6d3:3674
+invokeGuardedCallbackDev	@	react-dom_client.js?v=d301a6d3:3699
+invokeGuardedCallback	@	react-dom_client.js?v=d301a6d3:3733
+invokeGuardedCallbackAndCatchFirstError	@	react-dom_client.js?v=d301a6d3:3736
+executeDispatch	@	react-dom_client.js?v=d301a6d3:7016
+processDispatchQueueItemsInOrder	@	react-dom_client.js?v=d301a6d3:7036
+processDispatchQueue	@	react-dom_client.js?v=d301a6d3:7045
+dispatchEventsForPlugins	@	react-dom_client.js?v=d301a6d3:7053
+(anonymous)	@	react-dom_client.js?v=d301a6d3:7177
+batchedUpdates$1	@	react-dom_client.js?v=d301a6d3:18909
+batchedUpdates	@	react-dom_client.js?v=d301a6d3:3579
+dispatchEventForPluginEventSystem	@	react-dom_client.js?v=d301a6d3:7176
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay	@	react-dom_client.js?v=d301a6d3:5478
+dispatchEvent	@	react-dom_client.js?v=d301a6d3:5472
+dispatchDiscreteEvent	@	react-dom_client.js?v=d301a6d3:5449

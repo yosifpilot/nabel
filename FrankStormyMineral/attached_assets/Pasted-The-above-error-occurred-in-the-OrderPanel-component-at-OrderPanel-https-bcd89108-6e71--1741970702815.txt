@@ -1,0 +1,30 @@
+The above error occurred in the <OrderPanel> component:
+
+    at OrderPanel (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/src/App.jsx:1800:23)
+    at div
+    at App (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/src/App.jsx:311:27)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+at OrderPanel (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/src/App.jsx:1800:23)
+at div
+at App (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/src/App.jsx:311:27)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+at t.value (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Cannot read properties of undefined (reading 'toFixed')
+at https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/src/App.jsx:2190:98
+at Array.map (<anonymous>)
+at OrderPanel (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/src/App.jsx:2175:92)
+at renderWithHooks (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:12171:26)
+at mountIndeterminateComponent (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:14921:21)
+at beginWork (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:15902:22)
+at beginWork$1 (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19749:22)
+at performUnitOfWork (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19194:20)
+at workLoopSync (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19133:13)
+at renderRootSync (https://bcd89108-6e71-4486-9c0a-ca5095b971f6-00-17atb8i2jnka1.pike.replit.dev/node_modules/.vite/deps/react-dom_client.js?v=d301a6d3:19112:15)

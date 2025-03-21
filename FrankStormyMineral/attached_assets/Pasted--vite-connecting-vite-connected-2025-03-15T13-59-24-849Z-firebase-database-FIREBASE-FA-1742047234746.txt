@@ -1,0 +1,16 @@
+[vite] connecting...
+[vite] connected.
+[2025-03-15T13:59:24.849Z]  @firebase/database: FIREBASE FATAL ERROR: Cannot parse Firebase url. Please use https://<YOUR FIREBASE>.firebaseio.com 
+at t.value (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+FIREBASE FATAL ERROR: Cannot parse Firebase url. Please use https://.firebaseio.com 
+at fatal (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/node_modules/.vite/deps/firebase_database.js?v=b8b2c14e:196:9)
+at parseRepoInfo (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/node_modules/.vite/deps/firebase_database.js?v=b8b2c14e:8395:5)
+at repoManagerDatabaseFromApp (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/node_modules/.vite/deps/firebase_database.js?v=b8b2c14e:9465:19)
+at Component.instanceFactory (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/node_modules/.vite/deps/firebase_database.js?v=b8b2c14e:9618:14)
+at Provider.getOrInitializeService (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/node_modules/.vite/deps/chunk-NUEQ655E.js?v=b8b2c14e:1062:33)
+at Provider.getImmediate (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/node_modules/.vite/deps/chunk-NUEQ655E.js?v=b8b2c14e:928:21)
+at getDatabase (https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/node_modules/.vite/deps/firebase_database.js?v=b8b2c14e:9563:44)
+at https://2fe14a18-7277-441c-9650-02880ce60073-00-2cdbjtvts6iol.pike.replit.dev/src/firebaseConfig.js:17:18
